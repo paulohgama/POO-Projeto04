@@ -106,12 +106,6 @@
         response.sendRedirect(request.getRequestURI());
     }
 %>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Clientes</title>
-        <%@include file="WEB-INF/jspf/link.jspf"%>
-    </head>
     <html>
     <head>
 

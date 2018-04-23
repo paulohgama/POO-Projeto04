@@ -1,0 +1,20 @@
+<section id="footer-sec">
+  <div class="w3-container">
+    <div class="row  pad-bottom" > 
+      <div class="col-md-4">
+        <h4> <strong>Atalhos</strong> </h4>
+        <a href= "amortizacao-americano.jsp">Clientes</a><br/>
+        <a href= "amortizacao-constante.jsp">Fornecedores</a><br/>
+      </div>
+      <div class="col-md-4">
+        <h4> <strong>Localização</strong> </h4>
+        <p>
+            Praça 19 de Janeiro, <br />
+            Praia Grande - SP  <br />
+            CEP - 10909094
+          </p>
+        <a href="#" class="btn btn-primary" >Contato</a>
+      </div>
+    </div>
+  </div>
+</section>

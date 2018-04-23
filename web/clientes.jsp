@@ -95,7 +95,7 @@
             c.setEndereco(ArraysClienteFornecedores.clienteslist.get(c.controle).getEndereco());
         }
         ArraysClienteFornecedores.getClienteslist().set(Clientes.controle, c);
-        //response.sendRedirect(request.getRequestURI());
+        response.sendRedirect(request.getRequestURI());
         ArraysClienteFornecedores.nome ="add";
         ArraysClienteFornecedores.valor ="Adicionar";
         ArraysClienteFornecedores.requerido = "requered";

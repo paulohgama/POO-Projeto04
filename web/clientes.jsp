@@ -110,8 +110,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Clientes</title>
+        <%@include file="WEB-INF/jspf/link.jspf"%>
     </head>
     <body>
+        <%@include file="WEB-INF/jspf/menu.jspf"%>
         <h1 align="center">Clientes</h1>
         <form>
             <table align="center">
@@ -151,5 +153,6 @@
             </tr>
             <%}%>
         </table>
+        <%@include file="WEB-INF/jspf/footer.jspf"%>
     </body>
 </html>

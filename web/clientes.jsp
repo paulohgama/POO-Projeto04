@@ -106,6 +106,7 @@
         response.sendRedirect(request.getRequestURI());
     }
 %>
+<html>
     <html>
     <head>
 
@@ -195,7 +196,7 @@
             </tr>
             <%}%>
         </table>
-        <%@include file="WEB-INF/jspf/footer.jspf"%>
+        
         </center>
     </section>
 
